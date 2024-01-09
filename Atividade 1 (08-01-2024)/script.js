@@ -83,4 +83,5 @@ const addNew = (str) =>
     'Novas!' na string fornecida. Se este trecho existir e estiver presente no começo da string, o código retorna 
     a string (str.indexOf('Novas!') === 0 ? str), caso contrário, o adicionamos (: `Novas! ${str}`).*/
 
-console.log(addNew('Ofertas.'))
+console.log(addNew('Ofertas.'));
+console.log(addNew('Novas! Ofertas.'))
